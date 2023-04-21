@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+
+    <title>Challenge AVA</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+    <script src="/main.js">    </script>
+
+</head>
+
+<body id="principal">
+    
+    <header>
+        <div class="logo">
+            <h1><a href="primero.html" id="logo">a</a></h1>
+        </div>
+        <div class="titulo">
+            <h2>Challenge I.- Encriptador de mensajes</h2>
+        </div>
+    </header>
+    
+    <main>
+
+        <div class="izquierda">
+            <input id="mensaje" type="text" placeholder="Escribe tu mensaje aqui"></input>
+        
+            <div>
+                <button class="neon-btn" id="encriptar" onclick='encriptar()' value="">
+                <div>
+                    <span class="neon-text">
+                    encript<span class="faulty-letter" style="font-family:'Maven Pro', sans-serif; width: 100%;">a</span>r</span>
+                </div>
+                </button>
+                <button class="neon-btn" id="desencriptar" onclick='desencriptar()' value="">
+                    <div>
+                    <span class="neon-text">
+                    desencript<span class="faulty-letter" style="font-family:'Maven Pro', sans-serif; width: 100%;">a</span>r</span>
+                    </div>
+                </button>
+        </div>
+       
+        </div>
+
+        <div class="derecha">   
+            
+            
+            <div>
+                <img src="/Group 8.png" alt="señora" class="señora"
+                id="señora">
+                <p id="uwu">No se encontró ningún mensaje</p>
+            </div>
+
+
+            <div class="trans">
+                <textarea class="texto" id="resultado"></textarea>
+                <button class="copy-btn" id="copiar" onclick="copiar()">copiar</button>
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; Copyright Adonai Vázquez Alarcón - 2023</p>
+    </footer>
+
+</body>
+
+</html>
