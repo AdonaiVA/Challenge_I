@@ -94,7 +94,6 @@ p{
 
 .texto{
     width: auto;
-    height: 400px;
     position: relative;
     color: var(--glow-color);
     padding: 0.5em 1.2em;
@@ -107,7 +106,8 @@ p{
                         0 0 0.5em 0 var(--glow-color);
     animation: border-flicker 2s linear infinite;
     background: #1a1e23; 
-    text-align: center;  
+    text-align: center;
+    align-items: center;  
 }
 
 .copy-btn{

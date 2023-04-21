@@ -23,7 +23,7 @@ function encriptar(){
     document.getElementById("señora").style.display = "none";
     document.getElementById("uwu").style.display = "none";
   
-    document.getElementById("resultado").style.display = "show";
+    document.getElementById("resultado").style.height = "400px";
     document.getElementById("resultado").style.display = "inherit";
     document.getElementById("resultado").innerHTML = SinUmensaje;
 
@@ -44,8 +44,11 @@ function desencriptar(){
 
     document.getElementById("señora").style.display = "none";
     document.getElementById("uwu").style.display = "none";
+
+    document.getElementById("resultado").style.height = "400px";
+    document.getElementById("resultado").style.display = "inherit";
     document.getElementById("resultado").innerHTML = mensaje;
-    document.getElementById("resultado").style.display = "show";
+
     document.getElementById("copiar").style.display = "show";
     document.getElementById("copiar").style.display = "inherit";
 }
