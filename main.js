@@ -57,6 +57,7 @@ function desencriptar(){
 function copiar(){
     var contenido = document.querySelector("#resultado");
     contenido.select();
-    document.execCommand("cut");
+    contenido.setSelectionRange(0,999999);
+    document.execCommand("copy")
     alert("Mensaje copiado con éxito")
 }
